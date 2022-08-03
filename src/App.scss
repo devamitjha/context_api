@@ -1,0 +1,30 @@
+.login_container{
+  display: flex;
+  .miniCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:16px;
+    .nav-link{
+      color:#ffffff8c;
+      position:relative;
+      &.active{
+        color:#fff;
+      }
+      .count{
+        width:20px;
+        height:20px;
+        border-radius: 20px;
+        background-color:#fff;
+        color:#000;
+        position:absolute;
+        top:0;
+        right:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:12px;
+      }
+    }
+  }
+}

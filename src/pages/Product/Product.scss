@@ -1,0 +1,19 @@
+.product_card{
+    img{
+        width:150px;
+        margin:50px auto;
+    }
+    .card-body{
+        .card-title{
+            font-size:16px;
+        }
+        .buttonGroup{
+            display:flex;
+            justify-content: space-between;
+            margin-top:20px;
+            svg{
+                cursor:pointer;
+            }
+        }
+    }
+}
